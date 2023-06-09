@@ -1,3 +1,9 @@
+/*
+File Name: express.js
+Student's Name: Augusto Salles Schmitt
+Student ID: 301245327
+Date: June 9th, 2023
+*/
 var express = require('express'),
 morgan = require('morgan'),
 compress = require('compression'),

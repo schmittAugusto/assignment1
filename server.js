@@ -1,3 +1,9 @@
+/*
+File Name: server.js
+Student's Name: Augusto Salles Schmitt
+Student ID: 301245327
+Date: June 9th, 2023
+*/
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 var express = require('./config/express');
 var app = express();
