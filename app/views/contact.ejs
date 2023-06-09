@@ -2,8 +2,37 @@
 <%- include ('partials/main_nav.ejs')%>
 <link rel="stylesheet" href="/content/style.css">
 <main class="container">
-    <div class="jumbotron">
-    </div>
+    <br>
+    <div class="contact-panel">
+        <h2>Contact Information</h2>
+        <ul>
+          <li><i class="fas fa-envelope"></i> Email: schmitt.augusto@gmail.com</li>
+          <li><i class="fas fa-phone"></i> Phone: +1 (647) 567 503</li>
+          <li><i class="fas fa-map-marker-alt"></i> Address: 350 Painted Post Drive, Scarborough, ON M1G 2M5, Canada</li>
+        </ul>
+      </div>
+      <br>
+      <div class="form-container">
+        <h2>Contact Us</h2>
+        <form action="/" method="get">
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" name="firstname" required>
+    
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" name="lastname" required>
+    
+          <label for="phone">Contact Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+    
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+    
+          <input type="submit" value="Submit">
+        </form>
+      </div>
 </main>
 
 <%- include ('partials/bottom_nav.ejs')%>

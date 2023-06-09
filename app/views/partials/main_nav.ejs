@@ -1,7 +1,21 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-white">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    ul{
+        color: white;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    nav{
+        background-color: #171617;
+    }
+    img{
+        width: 303px;
+        height: 218px;
+    }
+</style>
+<nav class="navbar navbar-expand-lg navbar-white">
     <div class="container-fluid">
-    <img src="/img/placeholder_logo.png" alt="logo" style: width="100px"; height="150px">
-    <a class="navbar-brand" href="#">COMP229</a>
+    <img src="/img/test.png" alt="logo">
+    <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-
     target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
     aria-label="Toggle navigation">
@@ -14,7 +28,7 @@
             <%}else{%>
             <li class="nav-item">
             <%}%>
-            <a class="nav-link" href="/"><i class="fas fa-lg fa-laptop-house"></i>Home</a>
+            <a class="nav-link" href="/"><i class="fas fa-lg fa-laptop-house"></i>Home&nbsp;&nbsp;</a>
 
             </li>
             <% if (title=="About"){%>
@@ -22,7 +36,7 @@
             <%}else{%>
             <li class="nav-item">
             <%}%>
-            <a class="nav-link" href="/about"><i class="fa-solid fa-house"></i>About</a>
+            <a class="nav-link" href="/about"><i class="fa-solid fa-house"></i>About&nbsp;&nbsp;</a>
 
             </li>
             <% if (title=="Contact"){%>
@@ -30,7 +44,7 @@
             <%}else{%>
             <li class="nav-item">
             <%}%>
-            <a class="nav-link" href="/contact"><i class="fa-solid fa-address-book"></i>Contact</a>
+            <a class="nav-link" href="/contact"><i class="fa-solid fa-address-book"></i>Contact&nbsp;&nbsp;</a>
 
             </li>
             <% if (title=="Projects"){%>
@@ -39,7 +53,7 @@
             <li class="nav-item">
             <%}%>
             <a class="nav-link" href="/projects"><i class="fa-brands
-            fa-product-hunt"></i>Projects</a>
+            fa-product-hunt"></i>Projects&nbsp;&nbsp;</a>
 
             </li>
             <% if (title=="Services"){%>
@@ -47,7 +61,7 @@
             <%}else{%>
             <li class="nav-item">
             <%}%>
-            <a class="nav-link" href="/services"><i class="fa-brands fa-servicestack"></i>Services</a>
+            <a class="nav-link" href="/services"><i class="fa-brands fa-servicestack"></i>Services&nbsp;&nbsp;</a>
     </li>
     </ul>
     </div>
